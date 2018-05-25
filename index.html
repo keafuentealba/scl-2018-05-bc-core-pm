@@ -6,8 +6,30 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div id="root">
 
-  <div id="root"></div>
+    <div id="title">
+      <h1>Caesar Cipher</h1>
+    </div>
+
+    <div id="offset">
+      <input id="offsetNumber" type="number" />
+      <input type="button" onclick="window.actions.execute()" value="Ok"/>
+    </div>
+
+    <div id="options">
+      <form>
+        <input id="translatorOptions1" type="radio" value="cifrar" name="options"/> Cifrar
+        <input id="translatorOptions2" type="radio" value="descifrar" name="options"/>Descifrar
+      </form>
+    </div>
+
+    <div id="textbox">
+      <textarea id="translator" rows="8" cols="80"></textarea>
+      <input  type="button" onclick="window.actions.execute()" value="Ejecutar"/>
+    </div>
+
+  </div>
 
   <script src="cipher.js"></script>
   <script src="index.js"></script>
