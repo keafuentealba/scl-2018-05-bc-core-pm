@@ -1,1 +1,39 @@
-/* Acá va tu código */
+#root{
+  background-color: black;
+}
+
+#title{
+  color: grey;
+  font-family: monospace;
+  text-align: center;
+}
+
+#offsetText{
+  background-color: grey;
+  color: black;
+  font-family: monospace;
+  width: 200px;
+  height: 70px;
+  position: relative;
+  left: 42%;
+
+}
+#offsetText h2{
+  margin-left: 12%;
+  position: relative;
+  top: 30px;
+}
+
+#offsetNumber{
+  border: 5px solid black;
+  color: black;
+  width: 50px;
+  position: relative;
+  left: 52%;
+  bottom: 10px;
+}
+#options{
+  color: grey;
+  position: relative;
+  left: 42%;
+}
