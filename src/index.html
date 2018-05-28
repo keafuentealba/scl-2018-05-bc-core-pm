@@ -25,9 +25,12 @@
       </form>
     </div>
 
-    <div id="textbox">
+    <div id="textBox">
       <textarea id="translator" rows="8" cols="80"></textarea>
-      <input  type="button" onclick="window.actions.execute()" value="Ejecutar"/>
+      <div id="buttonExecute">
+        <input  type="button" onclick="window.actions.execute()" value="Ejecutar"/>
+        <input type="button" onclick="window.actions.clean()" value="Limpiar"class=""/>
+      </div>
     </div>
 
   </div>
