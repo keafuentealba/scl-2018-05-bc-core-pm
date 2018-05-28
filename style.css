@@ -1,5 +1,6 @@
 #root{
   background-color: black;
+  height: 800px;
 }
 
 #title{
@@ -36,4 +37,17 @@
   color: grey;
   position: relative;
   left: 42%;
+}
+#translator{
+  border: 8px solid grey;
+  color: black;
+  position: relative;
+  left: 27%;
+
+}
+
+#buttonExecute{
+  color: black;
+  position: relative;
+  left: 47%;
 }
