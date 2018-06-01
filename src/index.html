@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Caesar Cipher</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>cesar</title>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id="root">
@@ -14,7 +18,7 @@
     <div id="offsetText">
       <h2>Offset</h2>
       <div id="offset">
-        <input id="offsetNumber" type="number"/>
+        <input id="offsetNumber" type="number" min="1"/>
     </div>
       </div>
 
@@ -28,8 +32,9 @@
     <div id="textBox">
       <textarea id="translator" rows="8" cols="80"></textarea>
       <div id="buttonExecute">
-        <input  type="button" onclick="window.actions.execute()" value="Ejecutar"/>
-        <input type="button" onclick="window.actions.clean()" value="Limpiar"class=""/>
+        <input  type="button" onclick="window.actions.execute()" value="Ejecutar" />
+        <input type="button" onclick="window.actions.clean()" value="Limpiar" />
+        <i class="fas fa-comment-dots"></i>
       </div>
     </div>
 
