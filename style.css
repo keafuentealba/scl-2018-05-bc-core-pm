@@ -1,28 +1,28 @@
-#root{
+3#root{
   background-color: black;
   height: 800px;
 }
 
 #title{
   color: grey;
-  font-family: monospace;
+  font-family: 'Quicksand', sans-serif;
   text-align: center;
 }
 
 #offsetText{
   background-color: grey;
   color: black;
-  font-family: monospace;
+  font-family: 'Quicksand', sans-serif;
   width: 200px;
-  height: 70px;
+  height: 80px;
   position: relative;
   left: 42%;
-
 }
+
 #offsetText h2{
   margin-left: 12%;
   position: relative;
-  top: 30px;
+  top: 35px;
 }
 
 #offsetNumber{
@@ -50,4 +50,10 @@
   color: black;
   position: relative;
   left: 47%;
+}
+
+.fa-comment-dots{
+  color: cadetblue;
+  position: relative;
+
 }

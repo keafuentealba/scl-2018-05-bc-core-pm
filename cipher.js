@@ -1,8 +1,18 @@
 window.cipher = {
-  encode: () => {
-    /* Acá va tu código */
+  encode: (textReturn, offsetEntry) => {
+    let i;// variable contador con "i" de referencia.
+    let resultado = '';//
+    for (i = 0; i < textReturn.length; i++){
+      let x = textReturn.toUpperCase().charCodeAt(i);//textReturn convertido a mayus y obtiene cod del caracter en la posicion "i"
+      let resultadoFormula = (x - 65 + offsetEntry) % 26 + 65;//formula
+      resultado += String.fromCharCode(resultadoFormula);//concatena a resultado el caracter que representa el num result de la formula
+    }
+    return resultado;
   },
-  decode: () => {
-    /* Acá va tu código */
+
+  decode: (textReturn, offsetEntry) => {
+    alert(textReturn);
+    alert(offsetEntry);
+
   }
 }
