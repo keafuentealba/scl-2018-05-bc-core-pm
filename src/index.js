@@ -8,7 +8,7 @@ window.actions = {
         document.getElementById('translator').value = cipher.encode(textReturn, offsetEntry);
     }//se asigno al valor del elemento id translator el resultado de la funcion cipher.encode
     else if (option2 == true) {
-      cipher.decode(textReturn, offsetEntry);
+      document.getElementById('translator').value = cipher.decode(textReturn, offsetEntry);
     }
     else {
       alert('no llenaste los campos');
